@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "appNotification",
-    "slug": "appNotification",
+    "slug": "notificationapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "48015eb0-8729-4097-9fbd-37190399e42d"
+      }
+    },
+    "owner": "juliamalta12"
   }
 }
